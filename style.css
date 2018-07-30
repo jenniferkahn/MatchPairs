@@ -1,0 +1,102 @@
+
+
+/* body {
+	background-image: url('http://i.imgur.com/WW8viVh.jpg');
+	background-repeat: none;
+} */
+
+body {
+	background-color: grey;
+	background-repeat: none;
+}
+
+h1 {
+	color:white;
+	text-align: center;
+	font-size: 60px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+p {
+	color:blue;
+	text-align: center;
+	font-size: 80px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#game-board{
+	min-width: 100px;
+	max-width: 650px;
+	margin: 0px auto;
+}
+
+.initial-color {
+	background-color: white;
+	width: 48px;
+	float: left;
+	height: 48px;
+	border:  2px gray;
+	border-radius: 50%;
+	margin: 14px;
+	padding: 40px;
+	cursor: pointer;
+}
+
+.initial-color:hover {
+	background-color: #F2F2F2;
+}
+
+button:focus {
+	outline:0;
+}
+
+#extras {
+	width: 362px;
+	margin: 10px auto 0px;
+}
+
+#play-with-timer {
+	width: 160px;
+		height: 60px;
+}
+
+#button-new-game {
+	width: 160px;
+	height: 60px;
+}
+
+#play-with-timer, #button-new-game {
+	font-weight: bolder;
+	/* margin-left: 0px; */
+	text-align: center;
+	color: grey;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+}
+
+
+#play-with-timer{
+	cursor: pointer;
+}
+
+#too-many-wins {
+	/* margin-left: 80px; */
+	width: 202px;
+	 margin: 10px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: bolder;
+	text-transform:uppercase;
+
+
+}
+
+a {
+	cursor: pointer;
+	text-decoration:none;
+	color: inherit;
+}
